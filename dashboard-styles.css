@@ -1,0 +1,51 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #003366; /* Dark blue text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+
+/* Style for the container that holds the buttons */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+}
+
+/* Heading style */
+h1 {
+    font-family: 'Lobster', cursive; /* Font for headings */
+    font-size: 48px;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+/* Buttons style */
+button {
+    background-color: #003366; /* Dark blue background for buttons */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px; /* Fixed width for buttons */
+}
+
+button:hover {
+    background-color: #001f4d; /* Slightly darker on hover */
+}

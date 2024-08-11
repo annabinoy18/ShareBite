@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #003366; /* Dark blue text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+
+/* Container for the receive page */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Responsive max width */
+    width: 100%;
+}
+
+/* Heading style */
+h1 {
+    font-family: 'Lobster', cursive; /* Font for headings */
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Instructional text */
+p {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Button style */
+button {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #001f4d; /* Slightly darker on hover */
+}
+
+/* Donor card styles */
+.donor-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Donor card heading */
+.donor-card h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Donor card paragraphs */
+.donor-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}

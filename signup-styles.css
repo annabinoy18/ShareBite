@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #003366; /* Dark blue text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Container for the signup form */
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 500px; /* Responsive max width */
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-family: 'Lobster', cursive; /* Font for headings */
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label styles */
+label {
+    text-align: left;
+    font-weight: bold;
+    color: #003366;
+}
+
+/* Input styles */
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #003366;
+    font-size: 16px;
+    color: #003366;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button styles */
+button {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #001f4d; /* Slightly darker on hover */
+}

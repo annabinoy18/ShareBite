@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - ShareBite</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="donate-styles.css">
+    <script type="module" src="donate.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Donate Food</h1>
+        <form id="donationForm">
+            <label for="category">Category</label>
+            <select id="category" name="category" required>
+                <option value="veg">Veg</option>
+                <option value="non-veg">Non-Veg</option>
+            </select>
+
+            <label for="food-item">Food Item</label>
+            <input type="text" id="food-item" name="food-item" placeholder="e.g., Biryani, Rice and Curry" required>
+            <label for="address">Location Address</label>
+            <input type="text" id="address" name="address" placeholder="Address" required>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Phone" required>
+
+            <label for="count">Available Food (Number of People)</label>
+            <input type="text" id="count" name="count" placeholder="e.g., 10" required>
+
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" placeholder="Add any special instructions or notes"></textarea>
+
+            <button id="submit">Donate</button>
+        </form>
+    </div>
+</body>
+
+</html>
